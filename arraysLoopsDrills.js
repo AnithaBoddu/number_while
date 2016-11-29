@@ -28,6 +28,13 @@ var minNumber=numbers[0];
   return minNumber;
 }
 
+function average (array) {
+var total = 0
+array.forEach(function(val) {total+=val; })
+return total / array.length;
+
+}
+
 
 
 /* From here down, you are not expected to 
